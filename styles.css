@@ -22,7 +22,7 @@
 .hero-photo .portrait-frame:after{content:"";position:absolute;inset:12px;border:1px solid rgba(255,255,255,.44);pointer-events:none}
 .hero-photo .portrait-frame img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
 .portrait-label{position:absolute;z-index:3;display:flex;align-items:center;gap:11px;background:#fffdf8;border:1px solid rgba(183,151,88,.43);box-shadow:0 14px 35px rgba(45,42,32,.11);padding:13px 17px;color:#34352d}
-.portrait-label-top{top:30px;right:0}
+.portrait-label-top{top:20px;right:0}
 .portrait-index{font:italic 23px/1 var(--serif);color:var(--gold-deep);padding-right:10px;border-right:1px solid #ded4bd}
 .portrait-label-copy{font-size:9px;font-weight:700;letter-spacing:1.25px;white-space:nowrap}
 .portrait-label-copy small{display:block;margin-top:4px;font-size:8px;font-weight:500;letter-spacing:.1px;color:#777367}
