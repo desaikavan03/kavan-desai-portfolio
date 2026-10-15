@@ -22,7 +22,7 @@
 .hero-photo .portrait-frame:after{content:"";position:absolute;inset:12px;border:1px solid rgba(255,255,255,.44);pointer-events:none}
 .hero-photo .portrait-frame img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
 .portrait-label{position:absolute;z-index:3;display:flex;align-items:center;gap:11px;background:#fffdf8;border:1px solid rgba(183,151,88,.43);box-shadow:0 14px 35px rgba(45,42,32,.11);padding:13px 17px;color:#34352d}
-.portrait-label-top{top:42px;right:0}
+.portrait-label-top{top:30px;right:0}
 .portrait-index{font:italic 23px/1 var(--serif);color:var(--gold-deep);padding-right:10px;border-right:1px solid #ded4bd}
 .portrait-label-copy{font-size:9px;font-weight:700;letter-spacing:1.25px;white-space:nowrap}
 .portrait-label-copy small{display:block;margin-top:4px;font-size:8px;font-weight:500;letter-spacing:.1px;color:#777367}
@@ -30,7 +30,7 @@
 .portrait-dot{height:6px;width:6px;background:#d0b273;border-radius:50%}
 .portrait-spark{position:absolute;z-index:2;bottom:11px;right:14px;color:var(--gold-deep);font-size:34px}
 @media(max-width:1050px){.hero-photo{transform:none;margin-left:auto}}
-@media(max-width:760px){.hero-photo{height:420px;max-width:460px;width:100%;margin:22px auto 0;transform:none}.hero-photo .portrait-frame{inset:10px 25px 22px 10px}.portrait-label-top{top:25px;right:-2px}.portrait-note{bottom:38px;left:0}}
+@media(max-width:760px){.hero-photo{height:420px;max-width:460px;width:100%;margin:22px auto 0;transform:none}.hero-photo .portrait-frame{inset:10px 25px 22px 10px}.portrait-label-top{top:12px;right:-2px}.portrait-note{bottom:38px;left:0}}
 @media(max-width:420px){.hero-photo{height:365px;max-width:360px;width:100%;margin:17px auto 0;transform:none}.hero-photo .portrait-frame{inset:10px 20px 19px 8px}.portrait-label{padding:10px 12px;gap:8px}.portrait-index{font-size:19px;padding-right:7px}.portrait-label-copy{font-size:8px}.portrait-label-copy small{font-size:7px}.portrait-note{font-size:8px;padding:11px 12px;bottom:30px}.portrait-spark{font-size:27px;right:10px}}
 
 /* Client roster with supplied brand logos */
